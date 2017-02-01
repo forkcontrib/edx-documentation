@@ -24,8 +24,8 @@ What is a Component?
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.
 
-By default, Studio includes four types of components for you to add to your
-course.
+By default, Studio includes four basic types of components for you to add to
+your course.
 
 * **Discussion** components provide discussion spaces in the body of your
   course. Learners can explore ideas about a lesson with their peers in a
@@ -134,14 +134,17 @@ To duplicate a component, select the **Duplicate** icon in the component
 header.
 
 .. image:: ../../../shared/images/unit-dup.png
-  :alt: A unit with the Duplicate icon circled.
+  :alt: A unit with the Duplicate icon selected and highlighted.
 
 Then, follow instructions for the type of component you are editing.
 
 After you duplicate a component, the new component is not visible to learners
 until you :ref:`publish the unit<Publish a Unit>`.
 
-.. note::  You cannot duplicate a content experiment.
+.. note::  Do not duplicate configured content experiments. Duplicating
+   content experiments that have associated group configuration IDs is not
+   supported.
+
 
 .. _Delete a Component:
 
@@ -162,8 +165,89 @@ To delete a component, follow these steps.
 2. When you receive the confirmation prompt, select **Yes, delete this
    component**.
 
-After you delete a component, the component remains visible to learners until
-you :ref:`publish the unit<Publish a Unit>`.
+After you delete a component in Studio, the component remains visible to
+learners until you :ref:`publish the unit<Publish a Unit>`.
+
+
+.. _Reorganizing Components:
+
+******************************************
+Reorganizing Components
+******************************************
+
+You can reorganize components within their current unit or move components
+between units.
+
+.. contents::
+  :local:
+  :depth: 1
+
+======================================
+Reorganize Components Within a Unit
+======================================
+
+To move components within their current unit, you can use the drag and drop
+process you use for other objects in your course outline. For more
+information, see :ref:`Reorganize the Course Outline`.
+
+When you have multiple levels of nesting, you can also drag a child component
+into a different parent component, if both parents are expanded. For example,
+you can select the video component that is in Child Component A and drag it into
+Child Component B. Select the video component, and as you drag it into Child
+Component B, release the mouse button when a dashed outline of the component you
+are moving appears in the new location.
+
+.. image:: ../../../shared/images/drag_child_component.png
+ :alt: Image of dragging a child component to a new location
+
+You can also drag a child component outside of a parent, so that the child
+moves to the same level as the parent.
+
+================================
+Move Components to Other Units
+================================
+
+To move components to another unit in the course outline, follow these steps.
+
+.. note::   In cases where components are nested, such as content experiments,
+   you cannot use **Move** to move child components between units.
+
+#. Select the **Move** icon for the component that you want to move.
+
+   .. image:: ../../../shared/images/component_move_icon.png
+      :alt: The action icons for components, with the Move icon highlighted
+
+   A dialog appears that displays a navigable course outline tree, starting at
+   the section level.
+
+#. In the **Move** dialog, select the section, subsection, then the unit to
+   which you want to move the component.
+
+   .. image:: ../../../shared/images/component_move_navigation.png
+      :alt: The Move dialog provides a navigable course outline tree
+
+   The **Move** button is enabled when your selected location is a valid level
+   and location for moving your component. For example, when you move a
+   component, you have to navigate to the unit level.
+
+   .. image:: ../../../shared/images/component_move_enabled.png
+      :alt: The Move button is enabled when you have navigated to a valid
+          level and location to move your selected component.
+
+#. Select **Move**.
+
+   The component is moved to the new location.
+
+   .. image:: ../../../shared/images/component_move_successmsg.png
+      :alt: The message that appears when you successfully move a component to
+        a new location provides links either to undo a move or go to the new
+        location.
+
+To go to the new location, in the success message that appears, select **Take
+me to the new location**.
+
+To undo the move, in the success message that appears, select **Undo move**.
+
 
 .. _Components that Contain Other Components:
 
@@ -172,23 +256,23 @@ Components that Contain Other Components
 ******************************************
 
 For specific use cases, you configure course content so that components contain
-other components.  For example, if you want to include conditional components
-or content experiments, you have to create components inside components. See
+other components. For example, if you want to include conditional components or
+content experiments, you have to create components inside components. See
 :ref:`Creating Content Experiments` for more information.
 
 The component that contains other components is referred to as the *parent*;
-the contained components are referred to as children.
+the contained components are referred to as child components, or children.
 
-In the unit page, a parent component appears with the display name and a
-**View** link. For example:
+On a unit page, a parent component appears with its display name and a
+**View** link.
 
 .. image:: ../../../shared/images/component_container.png
  :alt: A unit page with a parent component.
 
 
-==================================================
+========================
 Edit a Parent Component
-==================================================
+========================
 
 A parent component does not directly contain content. Content such as HTML,
 videos, or problems are in the child components.
@@ -201,9 +285,9 @@ select **Edit** in the parent component to change the display name.
   additional attributes that you edit.
 
 
-======================================
+======================
 View Child Components
-======================================
+======================
 
 When you select **View** in the parent component, the parent component page
 opens, showing all child components. In this example, Child Component A
@@ -213,9 +297,7 @@ contains an HTML component and a video.
  :alt: An expanded child component.
 
 Select the arrow next to a child component name to collapse it and hide the
-component's contents.
-
-Select the arrow again to expand the component.
+component's contents. Select the arrow again to expand the component.
 
 For more information, see the following topics.
 
@@ -313,30 +395,6 @@ The following example shows the learner view of the unit described above.
  For more information, see :ref:`Unit States and Visibility to Students`.
 
 
-*******************************
-Reorganizing Child Components
-*******************************
 
-You can reorganize child components through the same drag and drop process you
-use for other objects in your course outline. You hover over the element handle
-on the right side of the screen until the mouse pointer changes to a four-
-headed arrow. Then, click and drag the element to the location that you want.
-
-Furthermore, when you have multiple levels of nesting, you can drag a child
-component into a different parent component, if both parents are expanded. For
-example, you can select the video component that is in Child Component A and
-drag it into Child Component B. Select the video component, and as you drag it
-into Child Component B, release the mouse button when a dashed outline of the
-component you are moving appears in the new location.
-
-.. image:: ../../../shared/images/drag_child_component.png
- :alt: Image of dragging a child component to a new location
-
-You can also drag a child component outside of a parent, so that the child
-moves to the same level as the parent.
-
-.. note::
-  For content experiments, you cannot drag a child component outside of a test
-  group.
 
 .. include:: ../../../links/links.rst
