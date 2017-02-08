@@ -57,8 +57,8 @@ Create a Content Experiment
 ===============================
 
 .. note::  Do not create new content experiments by duplicating configured
-   content experiments. Duplicating content experiments that have associated
-   group configuration IDs is not supported.
+   content experiments. Duplicating content experiments after you have
+   configured them is not supported.
 
 #. On the unit page, under **Add New Component**, select **Advanced**.
 

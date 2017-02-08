@@ -141,8 +141,7 @@ Then, follow instructions for the type of component you are editing.
 After you duplicate a component, the new component is not visible to learners
 until you :ref:`publish the unit<Publish a Unit>`.
 
-.. note::  Do not duplicate configured content experiments. Duplicating
-   content experiments that have associated group configuration IDs is not
+.. note::  Duplicating content experiments after you have configured them is not
    supported.
 
 
