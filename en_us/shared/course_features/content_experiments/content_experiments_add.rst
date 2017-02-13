@@ -49,6 +49,10 @@ After you configure a content experiment, you can change its group
 configuration. For more information, see :ref:`Change Group Configuration for
 a Content Experiment`.
 
+You can move a content experiment from its current location to a different
+location in the course outline. For information, see :ref:`Reorganizing
+Components`.
+
 
 .. _Create a Content Experiment:
 
@@ -56,9 +60,11 @@ a Content Experiment`.
 Create a Content Experiment
 ===============================
 
-.. note::  Do not create new content experiments by duplicating configured
-   content experiments. Duplicating content experiments after you have
-   configured them is not supported.
+.. note::
+
+   Do not create new content experiments by duplicating configured content
+   experiments. Duplicating content experiments after you have configured them
+   is not supported.
 
 #. On the unit page, under **Add New Component**, select **Advanced**.
 

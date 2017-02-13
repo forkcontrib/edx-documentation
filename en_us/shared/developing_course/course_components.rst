@@ -208,9 +208,6 @@ Move Components to Other Units
 
 To move components to another unit in the course outline, follow these steps.
 
-.. note::   In cases where components are nested, such as content experiments,
-   you cannot use **Move** to move child components between units.
-
 #. Select the **Move** icon for the component that you want to move.
 
    .. image:: ../../../shared/images/component_move_icon.png
