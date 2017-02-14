@@ -185,19 +185,23 @@ between units.
 Reorganize Components Within a Unit
 ======================================
 
-To move components within their current unit, you can use the drag and drop
-process you use for other objects in your course outline. For more
-information, see :ref:`Reorganize the Course Outline`.
+To move components within their current unit, you can drag and drop components
+in the same way that you can drag and drop units, subsections, and sections on
+the **Course Outline** page. For more information, see :ref:`Reorganize the
+Course Outline`.
 
-When you have multiple levels of nesting, you can also drag a child component
-into a different parent component, if both parents are expanded. For example,
-you can select the video component that is in Child Component A and drag it into
-Child Component B. Select the video component, and as you drag it into Child
-Component B, release the mouse button when a dashed outline of the component you
-are moving appears in the new location.
+For components that consist of nested components (for example, a content
+experiment), you can also use drag and drop to move a child component into a
+different parent component, if both parents are expanded. For example, you can
+select the video component that is in Child Component A and drag it into Child
+Component B. Select the video component, and as you drag it into Child
+Component B, release the mouse button when a dashed outline of the component
+you are moving appears in the new location.
 
 .. image:: ../../../shared/images/drag_child_component.png
- :alt: Image of dragging a child component to a new location
+ :alt: A child component being dragged to a new location in a different parent
+       component.
+ :width: 400
 
 You can also drag a child component outside of a parent, so that the child
 moves to the same level as the parent.
@@ -211,38 +215,27 @@ To move components to another unit in the course outline, follow these steps.
 #. Select the **Move** icon for the component that you want to move.
 
    .. image:: ../../../shared/images/component_move_icon.png
-      :alt: The action icons for components, with the Move icon highlighted
+      :alt: The action icons for components, with the Move icon highlighted.
 
-   A dialog appears that displays a navigable course outline tree, starting at
-   the section level.
+   A dialog appears that displays your course outline tree, starting at the
+   section level.
 
-#. In the **Move** dialog, select the section, subsection, then the unit to
-   which you want to move the component.
+#. In the **Move** dialog, navigate to location where you want to move the
+   component, by selecting the section, the subsection, and then the unit.
 
    .. image:: ../../../shared/images/component_move_navigation.png
-      :alt: The Move dialog provides a navigable course outline tree
+      :alt: The Move dialog displays your course outline tree for navigating
+            to the unit that you want to move your component to.
+      :width: 380
 
-   The **Move** button is enabled when your selected location is a valid level
-   and location for moving your component. For example, when you move a
-   component, you have to navigate to the unit level.
-
-   .. image:: ../../../shared/images/component_move_enabled.png
-      :alt: The Move button is enabled when you have navigated to a valid
-          level and location to move your selected component.
+   The **Move** button is enabled only when your selected location is a valid
+   level and location for moving your component. For example, when you move a
+   component, the **Move** button is enabled when you have navigated to
+   the unit level.
 
 #. Select **Move**.
 
-   The component is moved to the new location.
-
-   .. image:: ../../../shared/images/component_move_successmsg.png
-      :alt: The message that appears when you successfully move a component to
-        a new location provides links either to undo a move or go to the new
-        location.
-
-To go to the new location, in the success message that appears, select **Take
-me to the new location**.
-
-To undo the move, in the success message that appears, select **Undo move**.
+   The component moves to the new location. A success message appears that provides options to go to the new location or to undo the move.
 
 
 .. _Components that Contain Other Components:
@@ -264,6 +257,7 @@ On a unit page, a parent component appears with its display name and a
 
 .. image:: ../../../shared/images/component_container.png
  :alt: A unit page with a parent component.
+ :width: 500
 
 
 ========================
@@ -291,6 +285,7 @@ contains an HTML component and a video.
 
 .. image:: ../../../shared/images/child-components-a.png
  :alt: An expanded child component.
+ :width: 400
 
 Select the arrow next to a child component name to collapse it and hide the
 component's contents. Select the arrow again to expand the component.
@@ -380,15 +375,19 @@ The Learner View of Nested Components
 ======================================
 
 For learners, all parent and child components appear on the unit page.
-The following example shows the learner view of the unit described above.
-
-.. image:: ../../../shared/images/nested_components_student_view.png
- :alt: The learner's view of nested components.
 
 .. note::
  The visibility of nested components depends on the visibility of the parent
  unit. The parent unit must be public for learners to see nested components.
  For more information, see :ref:`Unit States and Visibility to Students`.
+
+The following example shows the learner view of the unit described above.
+
+.. image:: ../../../shared/images/nested_components_student_view.png
+ :alt: The learner's view of nested components.
+ :width: 400
+
+
 
 
 
