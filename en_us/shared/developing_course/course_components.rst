@@ -220,7 +220,7 @@ To move components to another unit in the course outline, follow these steps.
    A dialog appears that displays your course outline tree, starting at the
    section level.
 
-#. In the **Move** dialog, navigate to location where you want to move the
+#. In the **Move** dialog, navigate to the location where you want to move the
    component, by selecting the section, the subsection, and then the unit.
 
    .. image:: ../../../shared/images/component_move_navigation.png
@@ -230,8 +230,8 @@ To move components to another unit in the course outline, follow these steps.
 
    The **Move** button is enabled only when your selected location is a valid
    level and location for moving your component. For example, when you move a
-   component, the **Move** button is enabled when you have navigated to
-   the unit level.
+   component, the **Move** button is enabled only when you have navigated to
+   a unit to which the component can be moved.
 
 #. Select **Move**.
 
