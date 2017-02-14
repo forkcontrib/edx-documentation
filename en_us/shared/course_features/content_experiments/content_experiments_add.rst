@@ -73,7 +73,7 @@ Create a Content Experiment
    A new content experiment is added to the unit.
 
    .. image:: ../../../../shared/images/content_experiment_block.png
-    :width: 800
+    :width: 600
     :alt: An image showing the content experiment component in a unit page in
         Studio.
 
@@ -87,7 +87,7 @@ Create a Content Experiment
 
    .. image:: ../../../../shared/images/content_experiment_editor.png
     :alt: An image of the content experiment editor in Studio.
-    :width: 800
+    :width: 600
 
 #. For **Group Configuration**, select a group configuration.
 
@@ -119,7 +119,7 @@ and Group B, you see the following page.
 
 .. image:: ../../../../shared/images/content_experiment_container.png
  :alt: An image of the content experiment page in Studio, with two groups.
- :width: 800
+ :width: 600
 
 You add content for both groups as needed, just as you would add content to
 any container page. For more information, see :ref:`Components that Contain
@@ -130,7 +130,7 @@ For example, you can add an HTML component and a video to Group A.
 .. image:: ../../../../shared/images/a_b_test_child_expanded.png
  :alt: An image of an expanded content experiment component with an HTML and
      video component.
- :width: 800
+ :width: 600
 
 .. note::   It is valid, and can be useful, to have no content for a group in
    a content experiment. For example, if one group has a video and another
@@ -159,7 +159,7 @@ groups, as well as create new components.
    .. image:: ../../../../shared/images/content_experiment_editor_group2.png
     :alt: An image of the content experiment editor in Studio, with a group
         configuration selected.
-    :width: 800
+    :width: 600
 
 #. Select a different group configuration.
 
@@ -175,7 +175,7 @@ groups, as well as create new components.
    .. image:: ../../../../shared/images/inactive_groups.png
     :alt: An image of a content experiment in Studio, with components in an
         inactive group.
-    :width: 800
+    :width: 600
 
 #. Drag and drop components from the **Inactive Groups** section into the new
    groups. You can also create new components in the new groups.
