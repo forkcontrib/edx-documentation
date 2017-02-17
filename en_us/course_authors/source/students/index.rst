@@ -4,8 +4,4 @@
 Information for Your Students
 ##############################
 
-.. toctree::
-   :maxdepth: 2
-   
-   math_students
-   ora_students
+The :ref:`edX Learner's Guide` provides extensive instructions for learners about how to use the edX LMS. Two important sections of the *Learner's Guide* describe :ref:`learners:Math Formatting` in responses to problems and :ref:`learners:SFD_ORA` in open response assessments.

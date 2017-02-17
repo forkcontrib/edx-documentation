@@ -1,3 +1,5 @@
+:orphan:
+
 .. _Math Response Formatting for Students:
 
 #####################################
