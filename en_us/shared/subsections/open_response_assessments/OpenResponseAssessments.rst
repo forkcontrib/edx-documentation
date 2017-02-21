@@ -1,43 +1,15 @@
 .. _Open Response Assessments 2:
 
-#########################
-Open Response Assessments
-#########################
+###########################################
+Open Response Assessments Overview
+###########################################
 
 .. note:: EdX offers full support for this problem type.
 
-The topics in this section provide an overview and details about open response
-assessments.
+In open response assessments, learners submit essay responses and then go
+through a series of assessment steps (such as peer assessment and self
+assessment) to complete the assignment.
 
-.. contents::
-   :depth: 1
-   :local:
-
-For additional information, see :ref:`PA Create an ORA Assignment`,
-:ref:`Managing ORA Assignments`, and :ref:`Accessing ORA Assignment
-Information`.
-
-*****************************************
-Introduction to Open Response Assessments
-*****************************************
-
-Open response assessments allow the course team to assign questions that might
-not have definite answers, such as text responses or short essays. Learners
-submit responses to questions, then each learner and the learner's peers
-compare the responses to a rubric that you create. You can also allow learners
-to upload an image, a .pdf file, or another file of a type that you specify,
-to accompany their text responses.
-
-Open response assessments can include self assessments, peer assessments, and
-staff assessments. In self assessments, learners compare their own responses to
-a rubric that you create. In peer assessments, learners compare their peers'
-responses to the rubric. In staff assessments, a member of the course team
-evaluates the learner's responses using the rubric.
-
-In open response assessments, learners usually only see their own responses
-and any peer responses they assess. You can also allow learners to see the top
-scoring responses that their peers have submitted. For more information, see
-:ref:`PA Top Responses`.
 
 .. note::
   Open response assessments that are visible to all learners do not respect
@@ -48,98 +20,22 @@ scoring responses that their peers have submitted. For more information, see
   information about cohorts and creating cohort-specific course content, see
   :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
 
+The following topics provide conceptual information about open response
+assessments.
+
+* :ref:`PA Elements`
+* :ref:`PA Scoring`
+* :ref:`Best Practices for ORA`
 
 For more information about creating open response assessments, including step
 by step instructions, see the following sections.
 
-* :ref:`Best Practices for ORA`
-* :ref:`PA Elements`
-* :ref:`PA Scoring`
 * :ref:`PA Create an ORA Assignment`
+* :ref:`Managing ORA Assignments`
 * :ref:`Accessing ORA Assignment Information`
-
-For information about viewing metrics and learner responses for released open
-response assessments, see :ref:`Accessing ORA Assignment Information`.
 
 For information about the learner experience with open response assessments,
 see :ref:`learners:SFD_ORA` in the *edX Guide for Learners*.
-
-.. _Best Practices for ORA:
-
-*********************************************
-Best Practices for Open Response Assessments
-*********************************************
-
-Open response assessments can be a powerful teaching tool, but they are more
-effective in some situations than in others. In general, open response
-assessments are best suited to open-ended or project-based assignments with
-subjective essay answers and discussion. For example, open response assessments
-work well in humanities assignments where learners are encouraged to make
-subjective assessments of text, images, or other contributions, but they might
-not be the ideal tool in chemistry assignments where there are definitively
-correct or incorrect answers to questions.
-
-.. note:: Do not add more than one ORA component in a course unit. Multiple ORA
-   assignments in a unit cause errors when learners submit their assessments.
-
-EdX suggests that you follow these guidelines and best practices when you use
-open response assessments in your courses.
-
-* Make sure you have a well designed and clear :ref:`rubric <PA Rubric>`. A
-  good rubric is very important in helping to eliminate ambiguity in the peer
-  grading process.
-
-* Make ORA assignments count toward only a small percentage of the final
-  course grade, or make them ungraded.
-
-* In graded ORA assignments, consider setting the lowest possible score to a
-  number higher than zero, so that learners can earn some credit for the work
-  they have done, even if their peer assessors give them low grades.
-
-* Provide an ungraded practice ORA assignment prior to the first graded ORA
-  assignment in the course, so that learners can understand the peer grading
-  process and get the most out of the eventual graded ORA assignment.
-
-* Consider using ungraded ORA assignments to generate learner interaction and
-  feedback without affecting grades.
-
-* Be wary of including too many ORA assessments in your course. :ref:`Peer
-  assessments <Peer Assessment Step>` are hard work for learners, and having
-  to perform too many peer assessments can have a negative impact on learners'
-  course completion rates.
-
-* For a manageable experience, use staff assessment steps only in assignments
-  that are available to a limited number of learners. For example, in courses
-  that have cohorts enabled, you make the assignment containing the staff
-  assessment step available only to members of one or more cohorts.
-
-* Set the **Must Grade** number higher than the **Graded By** number to
-  minimize the chance that some responses will not be peer assessed. EdX
-  recommends a setting such as **Must Grade** = 4 and **Graded By** = 3.
-
-* In ORA assignments, to allow enough time for peer assessments to be
-  performed after learners have submitted their own responses, set the
-  response due date and time at least one week before the peer assessment due
-  date and time. If the response due time and peer assessment due time are
-  close together, and a learner submits a response just before responses are
-  due, other learners may not have time to perform peer assessments before
-  peer assessments are due.
-
-* In discussion posts, provide guidance for peer grading of ORA assignments.
-
-* Consider extending due dates to allow the discussion moderation team to
-  monitor course discussions for questions about, or reactions to, peer
-  grading, and to address issues when necessary.
-
-  If learners raise concerns about ORA assignments in course discussions,
-  course team members can perform actions such as :ref:`deleting a learner's
-  history, or "state" <Adjust_grades>` for a problem so that he can submit his
-  assignment again, :ref:`overriding a learner's grade<Override a learner
-  assessment grade>`, or :ref:`removing a learner response <Remove a learner
-  response from peer grading>` from peer grading. If there are more widespread
-  issues with peer grading, the course team can reduce the weight of the peer
-  assessment within the final course grade or allow learners to drop the
-  lowest graded assignment from their grades.
 
 
 .. _PA Elements:
@@ -174,101 +70,20 @@ For step-by-step instructions for creating an open response assessment, see
 Prompts
 =======
 
-Each **prompt**, or question, that you want your learners to answer, appears
-near the top of the page, followed by a field where the learner enters a
-response. You can require your learners to enter text as a response, or you can
-allow your learners to both enter text and upload another file, such as an
-image or document.
+A **prompt** is the question that you want your learners to answer.  In
+addition to requiring a written response, you can require or allow learners to
+upload an image or other type of file to accompany their written response.
 
-.. note:: Uploaded files must be smaller than 5 MB in size. If learners upload
- an image, the file must be in .jpg, .gif, or .png format.
+Within each prompt, you can include helpful information for your learners,
+such as the approximate number of words or sentences that their responses
+should have, the types of files that they can upload, or what they can expect
+after they submit their responses. For more information, see :ref:`PA Add
+Prompt`.
 
-.. image:: ../../../../shared/images/PA_QandRField.png
-   :width: 500
-   :alt: Single ORA question and its corresponding blank response field.
+In the learner view of the assignment, each prompt appears above the field
+where learners enter their responses. For more information, see
+:ref:`learners:Steps in an Open Response Assessment`.
 
-When you write each question, you can include helpful information for your
-learners, such as what they can expect after they submit responses, or the
-approximate number of words or sentences that their response should have.
-
-.. note:: Each learner is limited to a total word count of 10,000 for all
-   responses in an ORA assignment.
-
-For more information, see :ref:`PA Add Prompt`.
-
-.. _Asking Learners to Upload Other Files in Responses:
-
-Asking Learners to Upload Other Files in Responses
-*******************************************************
-
-For an open response assessment, you can ask your learners to upload an image,
-a .pdf file, or a file of another type as a part of their responses. Other
-learners evaluate the responses and their accompanying files during the peer
-assessment. Offering the option to upload a file in addition to a text response
-can give learners the opportunity to use tools and develop skills that are
-relevant to your course.
-
-Before you decide to ask learners to upload other files along with their text
-responses, however, you should be aware of the following limitations and best
-practices.
-
-* During the peer assessment step, learners download the files that other
-  learners uploaded. To reduce the potential for problems from files with
-  malicious content, learners cannot upload files with certain file extensions.
-  For a complete list, see :ref:`Prohibited File Extensions`.
-
-* Course teams can only access uploaded files for one learner at a time.
-  Uploaded file content is not included in the reports of answer submissions
-  that are available from the instructor dashboard, and course data packages do
-  not include any of the uploaded files.
-
-* You cannot require your learners to upload files. You can only give them the
-  option to do so.
-
-* All responses must include some response text. Learners cannot submit a
-  response that contains only an uploaded file.
-
-* Learners can submit only one file with each response.
-
-* Files must be smaller than 5MB in size.
-
-* Image files must be in .jpg, .gif, or .png format.
-
-For more information, see :ref:`PA Allow Images`.
-
-.. _Prohibited File Extensions:
-
-Prohibited File Extensions
-***************************
-
-This topic lists the file extensions for the set of file types that learners
-are prohibited from uploading as part of an open response assessment on edx.org
-or edX Edge. When you define a set of custom file types for learners to upload
-with their responses, you cannot specify these file types. The extensions on
-this list are selected and maintained by the development operations team at
-edX, and are subject to change.
-
-.. only:: Open_edX
-
-  This set of file extensions is provided as the default for Open edX
-  installations. Open edX system administrators can update this list. For more
-  information, see
-  :ref:`installation:Configuring ORA2 to Prohibit Submission of File Types`.
-
-.. list-table::
-   :widths: 15 75
-
-   * - A through I
-     - .action, .apk, .app, .application, .bat, .bin, .cmd, .com, .command,
-       .cpl, .csh, .dmg, .exe, .gadget, .hta, .inf, .ins, .inx, .ipa,
-       .isu
-   * - J through P
-     - .jar, .job, .jse, .lnk., msc, .msh, .msh1, .msh2, .mshxml, .msh1xml,
-       .msh2xml, .msi, .msp, .mst, .osx, .out, .paf, .pif, .prg, psc1, .psc2,
-       .ps1, .ps1xml, .ps2, .ps2xml
-   * - Q through Z
-     - .reg, .rgs, .run, .scf, .scr, .sct, .shb, .shs, .u3p, .vb, .vbe, .vbs,
-       .vbscript, .workflow .ws, .wsc, .wsf, .wsh
 
 .. _PA Rubric:
 
@@ -276,38 +91,54 @@ edX, and are subject to change.
 Rubric
 =======
 
-Your assignment must include a **rubric** that you design. The same rubric is
-used for all the types of assessments (self, peer, or staff). The person
-performing the assessment sees the rubric when she begins grading, and
-compares the submitted response to the rubric.
+Your assignment must include a **rubric** that you design. Grading for every
+type of assessment in an ORA assignment (self, peer, or staff) is done by
+comparing each response against the same rubric. The person performing the
+assessment sees the rubric when she begins grading, and compares the submitted
+response to the rubric.
 
-Rubrics consist of *criteria* and *options*.
+A rubric consists of several criteria and a set of options for each criterion.
 
-* Each criterion has a *name*, a *prompt*, and one or more *options*.
+*  **Criteria**. Each criterion describes characteristics that a response
+   should have, such as concepts that a response should cover, or the amount
+   of supporting information that a response must include.
 
-   * The name is a very short summary of the criterion, such as "Ideas" or
-     "Content". Criterion names generally have just one word. Because the
-     system uses criterion names for identification, **the name for each
-     criterion must be unique.** Criterion names do not appear in the rubric
-     that learners see when they are completing peer assessments, but they do
-     appear on the page that shows the learner's final grade.
+   Each criterion has a name and a prompt that describes how to evaluate a
+   response based on this criterion. The name is a very short summary of the
+   criterion, such as "Content" or "Organization". Criterion names are
+   generally one or two words long and must be unique. Learners do not see
+   criterion names in the rubric that learners use to grade peer assessments,
+   but criterion names do appear on the page that shows the learner's final
+   grade.
 
-     .. image:: ../../../../shared/images/PA_CriterionName.png
-        :alt: A final score page with call-outs for the criterion names
+    .. image:: ../../../../shared/images/PA_CriterionName.png
+       :alt: A final score page with criterion names circled
 
-   * The prompt is a description of the criterion.
+*  **Options**. Each criterion has options which describe how well each
+   response satisfies the criterion. The options are usually a range of
+   ratings, for example "Fair", "Good", or "Excellent", with details to help
+   you decide the rating.
 
-   * Options describe how well the response satisfies the criterion.
-
-* Each option has a *name*, an *explanation*, and a *point value*.
+   Each option has a name, an explanation, and a point value.
 
   .. image:: ../../../../shared/images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt
          and option names, explanations, and points.
 
+* Each criterion has a *name*, a *prompt*, and one or more *options*.
+
+   * The name is a very short summary of the criterion, such as "Content" or
+     "Organization". Criterion names are generally one or two words long and must
+     be unique. Learners do not see criterion names in the rubric that
+     learners use to grade peer assessments, but criterion names do appear on
+     the page that shows the learner's final grade.
+
+     .. image:: ../../../../shared/images/PA_CriterionName.png
+        :alt: A final score page with criterion names circled
+
+
 Different criteria in the same assignment can have different numbers of
-options. For example, in the image above, the first criterion has three options
-and the second criterion has four options.
+options.
 
 .. note:: You can also include criteria that do not have options, but that do
    include a field where learners or staff can enter feedback. For more
@@ -737,3 +568,174 @@ prevent the page from becoming too long.
    Responses** list.
 
 For more information, see :ref:`PA Show Top Responses`.
+
+
+.. _Best Practices for ORA:
+
+*********************************************
+Best Practices for Open Response Assessments
+*********************************************
+
+Open response assessments can be a powerful teaching tool, but they are more
+effective in some situations than in others. In general, open response
+assessments are best suited to open-ended or project-based assignments with
+subjective essay answers and discussion. For example, open response assessments
+work well in humanities assignments where learners are encouraged to make
+subjective assessments of text, images, or other contributions, but they might
+not be the ideal tool in chemistry assignments where there are definitively
+correct or incorrect answers to questions.
+
+.. note:: Do not add more than one ORA component in a course unit. Multiple ORA
+   assignments in a unit cause errors when learners submit their assessments.
+
+EdX suggests that you follow the guidelines and best practices in the
+following sections when you use open response assessments in your courses.
+
+=========================
+Designing the Assignment
+=========================
+
+* Do not add more than one ORA component in a course unit. Multiple ORA
+  assignments in a unit cause errors when learners submit their assessments.
+
+* Do not include too many ORA assessments in your course. :ref:`Peer
+  assessments <Peer Assessment Step>` are hard work for learners, and having
+  to perform too many peer assessments can have a negative impact on learners'
+  course completion rates.
+
+* For a manageable experience for course staff, use staff assessment steps
+  only in assignments that are available to a limited number of learners. For
+  example, in courses that have cohorts enabled, make the assignment
+  containing the staff assessment step available only to members of one or
+  more cohorts.
+
+====================
+Grading and Rubrics
+====================
+
+* Make sure you have a well designed and clear :ref:`rubric <PA Rubric>` for
+  the assignment. A good rubric is very important in helping to eliminate
+  ambiguity in the peer grading process.
+
+* Make ORA assignments count toward only a small percentage of the final
+  course grade, or make them ungraded.
+
+* In graded ORA assignments, consider setting the lowest possible score to a
+  number higher than zero, so that learners can earn some credit for the work
+  they have done, even if their peer assessors give them low grades.
+
+* Provide an ungraded practice ORA assignment prior to the first graded ORA
+  assignment in the course, so that learners can understand the peer grading
+  process and get the most out of the eventual graded ORA assignment.
+
+* Consider using ungraded ORA assignments to generate learner interaction and
+  feedback without affecting grades.
+
+=========================
+Peer Assessments
+=========================
+
+* Set the **Must Grade** number higher than the **Graded By** number to
+  minimize the chance that some responses will not be peer assessed. EdX
+  recommends a setting such as **Must Grade** = 4 and **Graded By** = 3.
+
+* To allow enough time for peer assessments to be performed after learners
+  have submitted their own responses, set the response due date and time at
+  least one week before the peer assessment due date and time.
+
+  If the response due time and peer assessment due time are too close
+  together, and a learner submits a response just before responses are due,
+  other learners may not have time to perform peer assessments before peer
+  assessments are due.
+
+* Use course discussion posts to provide guidance for peer grading of ORA
+  assignments.
+
+* Consider extending due dates to allow the discussion moderation team to
+  monitor course discussions for questions about, or reactions to, peer
+  grading, and to address issues when necessary.
+
+  If learners raise concerns about ORA assignments in course discussions,
+  course team members can perform actions such as :ref:`deleting a learner's
+  history, or "state" <Adjust_grades>` for a problem so that he can submit his
+  assignment again, :ref:`overriding a learner's grade<Override a learner
+  assessment grade>`, or :ref:`removing a learner response <Remove a learner
+  response from peer grading>` from peer grading. If there are more widespread
+  issues with peer grading, the course team can reduce the weight of the peer
+  assessment within the final course grade or allow learners to drop the
+  lowest graded assignment from their grades.
+
+.. _Asking Learners to Upload Other Files in Responses:
+
+*******************************************************
+Asking Learners to Upload Files in Responses
+*******************************************************
+
+In ORA assignments, you can ask your learners to upload an image, a .pdf file,
+or a file of another type as a part of their responses. Other learners
+evaluate the responses and their accompanying files during the peer
+assessment. Offering the option to upload a file in addition to a text
+response can give learners the opportunity to use tools and develop skills
+that are relevant to your course.
+
+Before you decide to ask learners to upload other files along with their text
+responses, however, be aware of the following limitations and best practices.
+
+* During the peer assessment step, learners download the files that other
+  learners uploaded. To reduce the potential for problems from files with
+  malicious content, learners cannot upload files with certain file extensions.
+  For a complete list, see :ref:`Prohibited File Extensions`.
+
+* Course teams can only access uploaded files for one learner at a time.
+  Uploaded file content is not included in the reports of answer submissions
+  that are available from the instructor dashboard, and course data packages do
+  not include any of the uploaded files.
+
+* You cannot require your learners to upload files. You can only give them the
+  option to do so.
+
+* All responses must include some response text. Learners cannot submit a
+  response that contains only an uploaded file.
+
+* Learners can submit only one file with each response.
+
+* Files must be smaller than 5MB in size.
+
+* Image files must be in .jpg, .gif, or .png format.
+
+For more information, see :ref:`PA Allow Images`.
+
+.. _Prohibited File Extensions:
+
+==========================
+Prohibited File Extensions
+==========================
+
+This topic lists the file extensions for the set of file types that learners
+are prohibited from uploading as part of an open response assessment on edx.org
+or edX Edge. When you define a set of custom file types for learners to upload
+with their responses, you cannot specify these file types. The extensions on
+this list are selected and maintained by the development operations team at
+edX, and are subject to change.
+
+.. only:: Open_edX
+
+  This set of file extensions is provided as the default for Open edX
+  installations. Open edX system administrators can update this list. For more
+  information, see
+  :ref:`installation:Configuring ORA2 to Prohibit Submission of File Types`.
+
+.. list-table::
+   :widths: 15 75
+
+   * - A through I
+     - .action, .apk, .app, .application, .bat, .bin, .cmd, .com, .command,
+       .cpl, .csh, .dmg, .exe, .gadget, .hta, .inf, .ins, .inx, .ipa,
+       .isu
+   * - J through P
+     - .jar, .job, .jse, .lnk., msc, .msh, .msh1, .msh2, .mshxml, .msh1xml,
+       .msh2xml, .msi, .msp, .mst, .osx, .out, .paf, .pif, .prg, psc1, .psc2,
+       .ps1, .ps1xml, .ps2, .ps2xml
+   * - Q through Z
+     - .reg, .rgs, .run, .scf, .scr, .sct, .shb, .shs, .u3p, .vb, .vbe, .vbs,
+       .vbscript, .workflow .ws, .wsc, .wsf, .wsh
