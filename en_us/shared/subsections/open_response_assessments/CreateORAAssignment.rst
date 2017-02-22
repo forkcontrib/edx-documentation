@@ -132,6 +132,14 @@ In this step, you add your rubric to provide guidance for assessing responses
 within the assignment. You add one rubric for each problem, regardless of the
 number of prompts in the problem.
 
+.. note::
+
+    The most effective rubrics for peer grading are written in clear, simple
+    language, have concrete details, and are as specific as possible. Many
+    novice learners will find it diffidult to make the types of value
+    judgments required by more holistic rubrics.
+
+
 For each step below, replace any default text with your own text.
 
 .. note:: All open response assessments include a feedback field below the

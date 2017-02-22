@@ -1,10 +1,8 @@
 .. _Open Response Assessments 2:
 
 ###########################################
-Open Response Assessments Overview
+Introduction to Open Response Assessments
 ###########################################
-
-.. note:: EdX offers full support for this problem type.
 
 In open response assessments, learners submit essay responses and then go
 through a series of assessment steps (such as peer assessment and self
@@ -27,8 +25,8 @@ assessments.
 * :ref:`PA Scoring`
 * :ref:`Best Practices for ORA`
 
-For more information about creating open response assessments, including step
-by step instructions, see the following sections.
+For information about creating and managing open response assessments,
+including step by step instructions, see the following sections.
 
 * :ref:`PA Create an ORA Assignment`
 * :ref:`Managing ORA Assignments`
@@ -47,9 +45,9 @@ Elements of an Open Response Assessment
 When you create an open response assessment assignment, you include several
 elements.
 
-* One or more :ref:`prompts <PA Prompts>`, or questions.
+* One or more :ref:`prompts <PA Prompts>`, or questions, that learners answer.
 
-* The :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in
+* A :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in
   the assessment.
 
 * One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
@@ -70,9 +68,10 @@ For step-by-step instructions for creating an open response assessment, see
 Prompts
 =======
 
-A **prompt** is the question that you want your learners to answer.  In
-addition to requiring a written response, you can require or allow learners to
-upload an image or other type of file to accompany their written response.
+A **prompt** is the question that you want your learners to answer. You can
+add more than one prompt in an ORA assignment. In addition to requiring a
+written response, you can require or allow learners to upload an image or
+other type of file to accompany their written response.
 
 Within each prompt, you can include helpful information for your learners,
 such as the approximate number of words or sentences that their responses
@@ -91,71 +90,79 @@ where learners enter their responses. For more information, see
 Rubric
 =======
 
-Your assignment must include a **rubric** that you design. Grading for every
-type of assessment in an ORA assignment (self, peer, or staff) is done by
-comparing each response against the same rubric. The person performing the
+Your assignment must include a **rubric**. Grading for every type of
+assessment in an ORA assignment (self, peer, or staff) is done by comparing
+each response against the same rubric. You add one rubric for each problem,
+regardless of the number of prompts in the problem. The person performing the
 assessment sees the rubric when she begins grading, and compares the submitted
 response to the rubric.
 
 A rubric consists of several criteria and a set of options for each criterion.
 
 *  **Criteria**. Each criterion describes characteristics that a response
-   should have, such as concepts that a response should cover, or the amount
+   should have. Examples are concepts that a response should cover, or the amount
    of supporting information that a response must include.
 
-   Each criterion has a name and a prompt that describes how to evaluate a
-   response based on this criterion. The name is a very short summary of the
-   criterion, such as "Content" or "Organization". Criterion names are
-   generally one or two words long and must be unique. Learners do not see
-   criterion names in the rubric that learners use to grade peer assessments,
-   but criterion names do appear on the page that shows the learner's final
-   grade.
+   Each criterion has a name and a prompt.
 
-    .. image:: ../../../../shared/images/PA_CriterionName.png
-       :alt: A final score page with criterion names circled
+   * The **criterion name** is a one or two word summary of the criterion,
+     such as "Content" or "Organization". This name must be unique within the
+     assignment and cannot be changed after you release the assignment.
 
-*  **Options**. Each criterion has options which describe how well each
-   response satisfies the criterion. The options are usually a range of
-   ratings, for example "Fair", "Good", or "Excellent", with details to help
-   you decide the rating.
+   * The **criterion prompt** describes how to evaluate a response based on
+     this criterion.
+
+*  **Options**. Each criterion has a set of options, usually a range of
+   ratings, which describe how well each response satisfies the criterion.
+   For example a set of options might be "Fair", "Good", or "Excellent".
 
    Each option has a name, an explanation, and a point value.
 
-  .. image:: ../../../../shared/images/PA_Rubric_LMS.png
+   * The **option name** is a one or two word summary of the rating.
+
+   * The **option explanation** consists of details that help the person
+     performing the assessment to decide whether the response matches the
+     rating. Make sure the explanation for each option is as specific as
+     possible.
+
+   * The **option point value** is the number of grade points given for this
+     option.
+
+.. note::
+
+   Different criteria in the same assignment can have different numbers of
+   options.
+
+   You can also include criteria that do not have options, but that do include
+   a field where learners or staff can enter feedback. For more information,
+   see  :ref:`PA Criteria Comment Field Only`.
+
+
+In a rubric as it appears to a learner, the following elements are visible.
+
+#. A criterion prompt
+#. The names of the criterion's options
+#. Descriptions for each option
+#. The point value for each option
+
+
+.. image:: ../../../../shared/images/ORA_Rubric_CA.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt
          and option names, explanations, and points.
+     :width: 600
 
-* Each criterion has a *name*, a *prompt*, and one or more *options*.
+Criterion names do not display in the rubric that learners use to perform
+their assessments, but do appear on the page that shows the learner's final
+ORA assignment grade.
 
-   * The name is a very short summary of the criterion, such as "Content" or
-     "Organization". Criterion names are generally one or two words long and must
-     be unique. Learners do not see criterion names in the rubric that
-     learners use to grade peer assessments, but criterion names do appear on
-     the page that shows the learner's final grade.
-
-     .. image:: ../../../../shared/images/PA_CriterionName.png
-        :alt: A final score page with criterion names circled
+For information about creating a rubric, see :ref:`PA Add Rubric`.
 
 
-Different criteria in the same assignment can have different numbers of
-options.
+An Example Criterion
+*****************************
 
-.. note:: You can also include criteria that do not have options, but that do
-   include a field where learners or staff can enter feedback. For more
-   information, see  :ref:`PA Criteria Comment Field Only`.
-
-You can see both criterion and option names when you access assignment
-information for an individual learner. For more information, see
-:ref:`Accessing ORA Assignment Information`.
-
-.. image:: ../../../../shared/images/PA_Crit_Option_Names.png
-   :width: 600
-   :alt: Learner-specific assignment information with call-outs for criterion
-       and option names.
-
-When you create your rubric, decide how many points each option will receive,
-and make sure that the explanation for each option is as specific as possible.
-For example, one criterion and set of options may resemble the following.
+In a rubric, one criterion and its set of options might resemble the
+following.
 
 **Criterion**
 
@@ -192,13 +199,6 @@ points possible)
        dynastic disagreement between Edward III and Philip VI, leading to the
        Hundred Years' War.
 
-.. note:: For peer grading, the most effective rubrics are as concrete
-   and specific as possible. Many novice learners will be unqualified
-   to make the types of value judgments required for more holistic
-   rubrics. In addition, edX suggests using clear, simple language in
-   rubrics.
-
-For more information, see :ref:`PA Add Rubric`.
 
 .. _PA Assessment Steps:
 
@@ -226,8 +226,8 @@ complete a learner training step ("Learn to Assess Responses"), complete peer
 assessments on other learners' responses ("Assess Peers"), and then complete
 self assessments ("Assess Your Response").
 
-.. image:: ../../../../shared/images/PA_AsmtWithResponse.png
-  :alt: A peer assessment with assessment steps and status labeled.
+.. image:: ../../../../shared/images/ORA_Steps.png
+  :alt: A peer assessment showing assessment steps.
   :width: 600
 
 .. _PA Student Training Step:
